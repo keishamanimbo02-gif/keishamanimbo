@@ -228,7 +228,18 @@
              
             <label for="comments">Comments:</label>
             <textarea id="comments" 
-                <button type="button" onclick="alert('Submitted!')">Submit</button>
+                <button type="submit">Submit</button>
+</form>
+
+<script>
+  
+  document.getElementById("registrationForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // stops page reload
+    alert("Registration Submitted!");
+                ge
+    this.reset(); 
+  });
+            </script>
         </form>
     </div>
 </section>
