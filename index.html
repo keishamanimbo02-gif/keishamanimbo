@@ -232,15 +232,12 @@
 </form>
 
 <script>
-  
   document.getElementById("registrationForm").addEventListener("submit", function(event) {
-    event.preventDefault(); // stops page reload
-    alert("Registration Submitted!");
-                ge
-    this.reset(); 
+    event.preventDefault(); // stop real submission
+    alert("Registration submitted!");
+    this.reset(); // clear form fields
   });
             </script>
-        </form>
     </div>
 </section>
     <footer>
