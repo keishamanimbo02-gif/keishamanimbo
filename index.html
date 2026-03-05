@@ -227,21 +227,17 @@
             </div>
              
             <label for="comments">Comments:</label>
-            <textarea id="comments" 
+            <textarea id="comments" rows="4"></textarea>
+
+            <button type="button" onclick="alert('Submitted!')">Submit</button>
                 
     </div>
 </section>
 
-                <button type="submit">Submit</button>
+                
 </form>
 
-<script>
-  document.getElementById("registrationForm").addEventListener("submit", function(event) {
-    event.preventDefault(); // stop real submission
-    alert("Registration submitted!");
-    this.reset(); // clear form fields
-  });
-            </script>
+
     <footer>
         <p>&copy; 2026 Kusina Ni Mang Miller | All Rights Reserved</p>
     </footer>
